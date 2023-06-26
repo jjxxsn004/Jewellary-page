@@ -1,0 +1,466 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body {
+    position: relative;
+}
+
+.container {
+    background-image: url(https://websitedemos.net/jewellery-04/wp-content/uploads/sites/188/2018/03/body-bg-free-img.jpg);
+    height: 150vh;
+    width: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#heading {
+    color: gold;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.navi li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.navi {
+    margin-left: 10px;
+    padding-top: 20px;
+    height: 50px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.navi a {
+    display: block;
+    color: rgba(255, 255, 255, 0.648);
+    text-decoration: none;
+    font-size: 1.23rem;
+    font-weight: 900;
+    font-size: 17px;
+    margin-right: 10px;
+}
+
+.navi a:hover {
+    color: gold;
+}
+
+#cart {
+    background-color: transparent;
+    border: none;
+    color: gold;
+    margin-left: 400px;
+    padding-top: 5px;
+}
+
+.content h1 {
+    color: white;
+    font-size: 3.5rem;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Lora', serif;
+}
+
+.content p {
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#filter {
+    width: 120px;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 900;
+    background-color: transparent;
+    border: 1px solid gold;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin-top: 30px;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+#filter:hover {
+    color: black;
+    background-color: gold;
+}
+
+#filtered-text {
+    margin-left: -1000px;
+    color: white;
+    margin-top: -32px;
+
+}
+
+.img-box {
+    display: flexbox;
+    height: 550px;
+    width: 1500px;
+    background-color: transparent;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.img-box h3{
+    font-family: 'Bacasime Antique', serif;
+    color: gold;
+}
+
+.box1 {
+    background-image: linear-gradient(rgba(192, 174, 174, 0.007), rgba(255, 254, 254, 0)), url(https://websitedemos.net/jewellery-04/wp-content/uploads/sites/188/2018/04/gold-stones-400x400.jpg);
+    background-color: transparent;
+    height: 500px;
+    width: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 10%;
+    background-size: 90%;
+    border: 1.5px solid rgba(255, 217, 0, 0.89);
+    border-radius: 20px;
+    position: absolute;
+    bottom: 193px;
+}
+
+.product-details {
+    position: absolute;
+    bottom: 5px;
+    left: 50px;
+}
+
+.product-details p {
+    color: white;
+    font-size: 16px;
+}
+
+.grade{
+    text-align: center;
+}
+
+#grade{
+    
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+
+.box2 {
+    background-image: linear-gradient(rgba(192, 174, 174, 0.007), rgba(255, 254, 254, 0)), url(https://websitedemos.net/jewellery-04/wp-content/uploads/sites/188/2018/04/blue-stone-400x400.jpg);
+    background-color: transparent;
+    height: 500px;
+    width: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 10%;
+    background-size: 90%;
+    position: absolute;
+    bottom: 193px;
+    left: 470px;
+    border: 1.5px solid rgba(255, 217, 0, 0.89);
+    border-radius: 20px;
+}
+
+.product-details2 {
+    position: absolute;
+    bottom: 5px;
+    left: 60px;
+}
+
+.product-details2 p {
+    color: white;
+    font-size: 16px;
+}
+
+.box3 {
+    background-image: linear-gradient(rgba(192, 174, 174, 0.007), rgba(255, 254, 254, 0)), url(https://websitedemos.net/jewellery-04/wp-content/uploads/sites/188/2018/04/polka-diamonds-400x400.jpg);
+    background-color: transparent;
+    height: 500px;
+    width: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 10%;
+    background-size: 90%;
+    position: absolute;
+    bottom: 1px;
+    left: 400px;
+    margin-left: 50px;
+    border: 1.5px solid rgba(255, 217, 0, 0.89);
+    border-radius: 20px;
+}
+
+#bag1 {
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    left: 290px;
+    bottom: 430px;
+    background-color: rgba(128, 128, 128, 0.26);
+    border-radius: 50%;
+    color: black;
+    border: none;
+    display: none;
+}
+
+#bag1:hover{
+    background-color: rgb(227, 194, 7);
+}
+.box1:hover #bag1{
+    display: inline-block;
+    
+}
+
+#bag1:hover .note{
+    
+    padding: 5px 20px 5px 5px;
+    display: block;
+    z-index: 500;
+    background: rgb(227, 194, 7);
+    left: 0px;
+    margin: 25px;
+    margin-left: 45px;
+    margin-top: -20px;
+    width: 100px;
+    position: absolute;
+    top: 15px;
+    font-size: 13px;
+    border-radius: 20px;
+}
+
+#bag1 .note{
+    display: none;
+    
+}
+
+#quick-view1{
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    left: 290px;
+    bottom: 380px;
+    background-color: rgba(128, 128, 128, 0.26);
+    border-radius: 50%;
+    color: black;
+    border: none;
+    font-size: 10px;
+    display: none;
+}
+
+#quick-view1:hover{
+    background-color: rgb(227, 194, 7);
+}
+
+.box1:hover #quick-view1{
+    display: inline-block;
+}
+
+#quick-view1:hover .note{
+    padding: 5px 20px 5px 5px;
+    display: block;
+    z-index: 500;
+    background: rgb(227, 194, 7);
+    left: 0px;
+    margin: 25px;
+    margin-left: 45px;
+    margin-top: -20px;
+    width: 100px;
+    position: absolute;
+    top: 15px;
+    font-size: 13px;
+    border-radius: 20px;
+}
+
+#quick-view1 .note{
+    display: none;
+    
+}
+
+#bag2 {
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    left: 280px;
+    bottom: 430px;
+    background-color: rgba(128, 128, 128, 0.26);
+    border-radius: 50%;
+    color: black;
+    border: none;
+    display: none;
+}
+#bag2 .note{
+    display: none;
+}
+#bag2:hover{
+    background-color: rgb(227, 194, 7);
+
+}
+#bag2:hover .note{
+    padding: 5px 20px 5px 5px;
+    display: block;
+    z-index: 500;
+    background: rgb(227, 194, 7);
+    left: 0px;
+    margin: 25px;
+    margin-left: 45px;
+    margin-top: -20px;
+    width: 100px;
+    position: absolute;
+    top: 15px;
+    font-size: 13px;
+    border-radius: 20px;
+}
+
+#quick-view2{
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    left: 280px;
+    bottom: 380px;
+    background-color: rgba(128, 128, 128, 0.26);
+    border-radius: 50%;
+    color: black;
+    border: none;
+    font-size: 10px;
+    display: none;
+}
+#quick-view2 .note{
+    display: none;
+}
+#quick-view2:hover .note{
+    padding: 5px 20px 5px 5px;
+    display: block;
+    z-index: 500;
+    background: rgb(227, 194, 7);
+    left: 0px;
+    margin: 25px;
+    margin-left: 45px;
+    margin-top: -20px;
+    width: 100px;
+    position: absolute;
+    top: 15px;
+    font-size: 13px;
+    border-radius: 20px;
+}
+#quick-view2:hover{
+    background-color:rgb(227, 194, 7) ;
+}
+.box2:hover #quick-view2{
+    display: inline-block;
+}
+.box2:hover #bag2{
+    display: inline-block;
+}
+
+#bag3 {
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    left: 280px;
+    bottom: 430px;
+    background-color: rgba(128, 128, 128, 0.26);
+    border-radius: 50%;
+    color: black;
+    border: none;
+    display: none;
+}
+#bag3 .note{
+    display: none;
+}
+#bag3:hover{
+    background-color: rgb(227, 194, 7);
+
+}
+#bag3:hover .note{
+    padding: 5px 20px 5px 5px;
+    display: block;
+    z-index: 500;
+    background: rgb(227, 194, 7);
+    left: 0px;
+    margin: 25px;
+    margin-left: 45px;
+    margin-top: -20px;
+    width: 100px;
+    position: absolute;
+    top: 15px;
+    font-size: 13px;
+    border-radius: 20px;
+}
+
+#quick-view3{
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    left: 280px;
+    bottom: 380px;
+    background-color: rgba(128, 128, 128, 0.26);
+    border-radius: 50%;
+    color: black;
+    border: none;
+    font-size: 10px;
+    display: none;
+}
+#quick-view3 .note{
+    display: none;
+}
+#quick-view3:hover .note{
+    padding: 5px 20px 5px 5px;
+    display: block;
+    z-index: 500;
+    background: rgb(227, 194, 7);
+    left: 0px;
+    margin: 25px;
+    margin-left: 45px;
+    margin-top: -20px;
+    width: 100px;
+    position: absolute;
+    top: 15px;
+    font-size: 13px;
+    border-radius: 20px;
+}
+#quick-view3:hover{
+    background-color:rgb(227, 194, 7) ;
+}
+.box3:hover #quick-view3{
+    display: inline-block;
+}
+.box3:hover #bag3{
+    display: inline-block;
+}
+
+.footer{
+    height: 150px;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+
+}
+
+.footer h4, p{
+    color: white;
+}
+
+.footer h4{
+    margin-left: 150px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.footer p{
+    margin-left: 1143px;
+    color: white;
+    display: inline-block;
+}

@@ -1,0 +1,395 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-weight: 700;
+  
+}
+
+body {
+    position: relative;
+}
+
+.container {
+    background-image: url(https://websitedemos.net/jewellery-04/wp-content/uploads/sites/188/2018/03/body-bg-free-img.jpg);
+    height: auto;
+    width: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header1{
+    margin-left: 40%;
+    margin-top: 10px;
+    padding-top: 20px;
+    font-family: 'Merriweather', serif;
+    font-size: 2.5rem;
+}
+
+.main-page {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.427), rgba(0, 0, 0, 0.4)), url(https://websitedemos.net/jewellery-04/wp-content/uploads/sites/188/2020/02/rings.jpg);
+    height: 650px;
+    width: 1200px;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    border: 1px solid gold;
+}
+
+#shopNow{
+    color: white;
+    background-color: transparent;
+    padding: 10px 20px;
+    margin-left: 600px;    
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    border: 1px solid gold;
+}
+
+#shopNow:hover{
+    background-color: gold;
+    color: black;
+}
+
+.navi li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.navi {
+    margin-left: 10px;
+    padding-top: 20px;
+    height: 50px;
+}
+
+.navi a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 1.23rem;
+    font-weight: 900;
+}
+
+.navi a:hover {
+    color: gold;
+}
+
+#cart {
+    background-color: transparent;
+    border: none;
+    color: gold;
+    margin-left: 400px;
+    padding-top: 5px;
+    position: absolute;
+    top: 165px;
+}
+
+.ads-detail {
+    width: 600px;
+    height: 200px;
+    background-color: transparent;
+    text-align: left;
+    line-height: 3.5rem;
+    margin-left: 600px;
+    margin-top: 150px;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 900;
+}
+
+.ads-detail h1 {
+    margin-left: 0;
+    font-size: 3rem;
+    color: red;
+    font-weight: 900;
+}
+
+.ads-detail h3 {
+    font-size: 2rem;
+    color: gold;
+}
+
+.ads-detail p {
+    font-size: 1.5rem;
+}
+
+.content-box1 {
+    height: 650px;
+    width: 1200px;
+    background-color: transparent;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+.content1 {
+    width: 410px;
+    height: 635px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(https://websitedemos.net/jewellery-04/wp-content/uploads/sites/188/2020/02/pic-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5px 10px;
+    border-radius: 20px;
+    /* border-right: 1px solid gold;
+    padding-right: 15px; */
+    border: 1px solid gold;
+}
+
+
+.content2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.327), rgba(0, 0, 0, 0.5)), url(https://websitedemos.net/jewellery-04/wp-content/uploads/sites/188/2020/02/earrings-free-img-1.jpg);
+    width: 700px;
+    height: 645px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 500px;
+    position: absolute;
+    top: 825px;
+    border-radius: 20px;
+    border: 1px solid gold;
+}
+
+.content1-details {
+    color: white;
+    height: 250px;
+    width: 400px;
+    background-color: transparent;
+    margin-left: 28px;
+}
+
+.content1-details h1 {
+    text-align: left;
+    color: red;
+    margin-left: 0;
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+.content-box1 button {
+    height: 50px;
+    width: 150px;
+    background-color: transparent;
+    position: absolute;
+    top: 40%;
+    left: 370px;
+    border: 1px solid gold;
+    border-radius: 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.content-box1 button:hover {
+    background-color: gold;
+    color: black;
+}
+
+.content2-details {
+    color: white;
+    margin-top: 430px;
+    margin-left: 270px;
+    height: 200px;
+    width: 450px;
+    background-color: transparent;
+    text-align: left;
+}
+
+.content2-details h1 {
+    text-align: left;
+    margin-left: 0;
+    color: gold;
+}
+
+.content2-details p{
+    color: red;
+}
+
+.content2-details a {
+    text-decoration: none;
+    height: 28px;
+    width: 150px;
+    background-color: transparent;
+    border: 1px solid gold;
+    border-radius: 20px;
+    color: white;
+    left: 500px;
+    bottom: 20px;
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.content2-details a:hover {
+    background-color: gold;
+    color: black;
+}
+
+.content-box2 {
+    height: 620px;
+    width: 1200px;
+    background-color: transparent;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+.content3 {
+    width: 725px;
+    height: 570px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.327), rgba(0, 0, 0, 0.5)),url(https://websitedemos.net/jewellery-04/wp-content/uploads/sites/188/2020/02/man-with-hat-free-img.jpg);
+    border: 1px solid gold;
+    border-radius: 20px;
+}
+
+.content3-details {
+    color: white;
+    height: 200px;
+    width: 450px;
+    background-color: transparent;
+    margin-top: 200px;
+    margin-left: 20px;
+    font-size: large;
+
+}
+
+.content3-details h1 {
+    font-weight: 900;
+    color: red;
+    margin-left: 0;
+}
+
+.content3 a {
+    text-decoration: none;
+    color: white;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid gold;
+    margin-left: 50px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.content-box2 a:hover{
+    background-color: gold;
+    color: black;
+    font-size: 20px;
+}
+
+.content4{
+    width: 415px;
+    height: 570px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.317), rgba(0, 0, 0, 0.35)),url(https://websitedemos.net/jewellery-04/wp-content/uploads/sites/188/2020/02/woman-jewelry-free-img.jpg);
+    background-position-x: 40%;
+    background-position-y: 80%;
+    background-size: 105%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 1515px;
+    right: 183px;
+    border: 1px solid gold;
+    border-radius: 20px;
+}
+
+.content4-details h1{
+    color: red;
+    margin-left: 13px;
+    margin-top: 400px;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+.content4 a{
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    border: 1px solid gold;
+    border-radius: 20px;
+    font-size: 18px;
+    margin-left: 305px;
+    padding: 10px;
+}
+
+.membership{
+    height: 150px;
+    width: 1200px;
+    background: rgb(224, 206, 106);
+    margin-left: 150px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+.membership h2{
+    margin-left: 20px;
+    margin-top: 30px;
+    height: 100px;
+    width: 350px;
+    background-color: transparent;
+    display: inline-block;
+    font-family: 'Playfair Display', serif;
+font-size: 2.2rem;
+}
+
+.membership h3{
+    margin-left: 150px;
+    margin-top: 10px;
+    display: inline-block;
+    background-color: transparent;
+    height: 50px;
+    width: 250px;
+    font-size: 1.8rem;
+    font-weight: 900;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+
+.membership a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 20px;
+    width: 200px;
+    margin-left: 270px;
+    margin-top: 20px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.membership a:hover{
+    background-color: rgb(212, 6, 6);
+    color: black;
+}
+
+.footer{
+    height: 150px;
+    width: 100%;
+    background-color: black;
+}
+
+.footer h4, p{
+    color: white;
+}
+
+.footer h4{
+    margin-left: 150px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.footer p{
+    margin-left: 1143px;
+    color: white;
+    display: inline-block;
+}
+
+
